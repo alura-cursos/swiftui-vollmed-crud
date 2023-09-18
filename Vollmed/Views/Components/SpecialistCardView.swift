@@ -45,7 +45,12 @@ struct SpecialistCardView: View {
                 }
             }
             
-            ButtonView(text: "Agendar consulta")
+            NavigationLink {
+                ScheduleAppointmentView()
+            } label: {
+                ButtonView(text: "Agendar consulta")
+            }
+            
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .padding()

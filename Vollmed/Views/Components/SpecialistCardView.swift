@@ -11,14 +11,31 @@ struct SpecialistCardView: View {
     
     var specialist: Specialist
     
+    let service = WebService()
+    
+    @State private var specialistImage: UIImage?
+    
+    func downloadImage() async {
+        do {
+            if let image = try await service.downloadImage(from: specialist.imageUrl) {
+                self.specialistImage = image
+            }
+        } catch {
+            print("Ocorreu um erro ao obter a imagem: \(error)")
+        }
+    }
+    
     var body: some View {
         VStack(alignment: .leading) {
             HStack(spacing: 16.0) {
-                Image(.doctor)
-                    .resizable()
-                    .scaledToFill()
-                    .frame(width: 64, height: 64)
-                    .clipShape(Circle())
+                
+                if let specialistImage {
+                    Image(uiImage: specialistImage)
+                        .resizable()
+                        .scaledToFill()
+                        .frame(width: 64, height: 64)
+                        .clipShape(Circle())
+                }
                 
                 VStack(alignment: .leading, spacing: 8.0) {
                     Text(specialist.name)
@@ -34,6 +51,11 @@ struct SpecialistCardView: View {
         .padding()
         .background(Color(.lightBlue).opacity(0.15))
         .cornerRadius(16.0)
+        .onAppear {
+            Task {
+                await downloadImage()
+            }
+        }
     }
 }
 

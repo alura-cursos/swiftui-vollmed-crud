@@ -32,6 +32,9 @@ struct ScheduleAppointmentView: View {
         .padding()
         .navigationTitle("Agendar consulta")
         .navigationBarTitleDisplayMode(.large)
+        .onAppear {
+            UIDatePicker.appearance().minuteInterval = 15
+        }
     }
 }
 

@@ -21,6 +21,7 @@
 		488A6A152AB8FB86003A2CAD /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A142AB8FB86003A2CAD /* String+.swift */; };
 		488A6A172AB8FBCE003A2CAD /* ScheduleAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */; };
 		488A6A192AB90DD4003A2CAD /* MyAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A182AB90DD4003A2CAD /* MyAppointmentsView.swift */; };
+		488A6A1B2AB90ED6003A2CAD /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A1A2AB90ED6003A2CAD /* Appointment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		488A6A142AB8FB86003A2CAD /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointment.swift; sourceTree = "<group>"; };
 		488A6A182AB90DD4003A2CAD /* MyAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentsView.swift; sourceTree = "<group>"; };
+		488A6A1A2AB90ED6003A2CAD /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				484BEEFC2AB0F5750033C07A /* Specialist.swift */,
 				488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */,
+				488A6A1A2AB90ED6003A2CAD /* Appointment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				488A6A1B2AB90ED6003A2CAD /* Appointment.swift in Sources */,
 				488A6A132AB8FB3D003A2CAD /* Date+.swift in Sources */,
 				488A6A172AB8FBCE003A2CAD /* ScheduleAppointment.swift in Sources */,
 				48539DEF2AB0F47C005BD7C9 /* ContentView.swift in Sources */,

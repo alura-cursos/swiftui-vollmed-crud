@@ -19,6 +19,7 @@
 		488A6A102AB8F9AA003A2CAD /* ScheduleAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A0F2AB8F9AA003A2CAD /* ScheduleAppointmentView.swift */; };
 		488A6A132AB8FB3D003A2CAD /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A122AB8FB3D003A2CAD /* Date+.swift */; };
 		488A6A152AB8FB86003A2CAD /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A142AB8FB86003A2CAD /* String+.swift */; };
+		488A6A172AB8FBCE003A2CAD /* ScheduleAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		488A6A0F2AB8F9AA003A2CAD /* ScheduleAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointmentView.swift; sourceTree = "<group>"; };
 		488A6A122AB8FB3D003A2CAD /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
 		488A6A142AB8FB86003A2CAD /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				484BEEFC2AB0F5750033C07A /* Specialist.swift */,
+				488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				488A6A132AB8FB3D003A2CAD /* Date+.swift in Sources */,
+				488A6A172AB8FBCE003A2CAD /* ScheduleAppointment.swift in Sources */,
 				48539DEF2AB0F47C005BD7C9 /* ContentView.swift in Sources */,
 				488A6A152AB8FB86003A2CAD /* String+.swift in Sources */,
 				484BEF052AB0F7970033C07A /* HomeView.swift in Sources */,

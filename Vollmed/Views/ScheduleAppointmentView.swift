@@ -12,18 +12,24 @@ struct ScheduleAppointmentView: View {
     let service = WebService()
     var specialistID: String
     var isRescheduleView: Bool
+    var appointmentID: String?
     
     @State private var selectedDate = Date()
     @State private var showAlert = false
     @State private var isAppointmentScheduled = false
     
-    init(specialistID: String, isRescheduleView: Bool = false) {
+    init(specialistID: String, isRescheduleView: Bool = false, appointmentID: String? = nil) {
         self.specialistID = specialistID
         self.isRescheduleView = isRescheduleView
+        self.appointmentID = appointmentID
     }
     
     func rescheduleAppointment() async {
-        
+        guard let appointmentID else {
+            print("Houve um erro ao obter o ID da consulta")
+            return
+        }
+        print(appointmentID)
     }
     
     func scheduleAppointment() async {

@@ -26,7 +26,7 @@ struct MyAppointmentsView: View {
     var body: some View {
         ScrollView(showsIndicators: false) {
             ForEach(appointments) { appointment in
-                SpecialistCardView(specialist: appointment.specialist)
+                SpecialistCardView(specialist: appointment.specialist, appointment: appointment)
             }
         }
         .navigationTitle("Minhas consultas")

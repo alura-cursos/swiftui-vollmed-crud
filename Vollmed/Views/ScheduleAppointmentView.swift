@@ -20,7 +20,7 @@ struct ScheduleAppointmentView: View {
                 .multilineTextAlignment(.center)
                 .padding(.top)
             
-            DatePicker("Escolha a data da consulta", selection: $selectedDate)
+            DatePicker("Escolha a data da consulta", selection: $selectedDate, in: Date()...)
                 .datePickerStyle(.graphical)
             
             Button(action: {

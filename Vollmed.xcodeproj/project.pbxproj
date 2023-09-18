@@ -22,6 +22,7 @@
 		488A6A172AB8FBCE003A2CAD /* ScheduleAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */; };
 		488A6A192AB90DD4003A2CAD /* MyAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A182AB90DD4003A2CAD /* MyAppointmentsView.swift */; };
 		488A6A1B2AB90ED6003A2CAD /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A1A2AB90ED6003A2CAD /* Appointment.swift */; };
+		488A6A1D2AB91386003A2CAD /* CancelAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488A6A1C2AB91386003A2CAD /* CancelAppointmentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		488A6A162AB8FBCE003A2CAD /* ScheduleAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointment.swift; sourceTree = "<group>"; };
 		488A6A182AB90DD4003A2CAD /* MyAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentsView.swift; sourceTree = "<group>"; };
 		488A6A1A2AB90ED6003A2CAD /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		488A6A1C2AB91386003A2CAD /* CancelAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAppointmentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				484BEF042AB0F7970033C07A /* HomeView.swift */,
 				488A6A0F2AB8F9AA003A2CAD /* ScheduleAppointmentView.swift */,
 				488A6A182AB90DD4003A2CAD /* MyAppointmentsView.swift */,
+				488A6A1C2AB91386003A2CAD /* CancelAppointmentView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -216,6 +219,7 @@
 				48539DEF2AB0F47C005BD7C9 /* ContentView.swift in Sources */,
 				488A6A152AB8FB86003A2CAD /* String+.swift in Sources */,
 				484BEF052AB0F7970033C07A /* HomeView.swift in Sources */,
+				488A6A1D2AB91386003A2CAD /* CancelAppointmentView.swift in Sources */,
 				484BEEFD2AB0F5750033C07A /* Specialist.swift in Sources */,
 				484BEF012AB0F6090033C07A /* ButtonView.swift in Sources */,
 				484BEF032AB0F7080033C07A /* SpecialistCardView.swift in Sources */,
